@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A Marcha do Zumbi dos Palmares</title>
+  <link rel="stylesheet" href="style19.css" />
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <span class="site-title">A Marcha do Zumbi dos Palmares</span>
+      <div class="header-buttons">
+        <button id="btn-autores" class="btn-primario">Autores</button>
+        <button id="btn-imagens" class="btn-primario">Imagens</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="texto">
+        <h2>A Marcha do Zumbi dos Palmares</h2>
+        <p>
+          A Marcha do Zumbi dos Palmares é um importante movimento de valorização da consciência negra no Brasil,
+          realizada em homenagem ao líder quilombola Zumbi e a todos que lutaram contra a escravidão e o racismo estrutural.
+        </p>
+        <p>
+          Ela simboliza resistência, orgulho e união, reforçando a importância da luta por igualdade racial,
+          justiça social e reconhecimento das contribuições do povo negro na formação da sociedade brasileira.
+        </p>
+      </div>
+
+      <div class="imagem">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Zumbi_dos_Palmares.jpg" alt="Zumbi dos Palmares" />
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 - A Marcha do Zumbi dos Palmares | Memória e Resistência | Feito por João Lucas
+  </footer>
+
+
+  <div id="modal-autores" class="modal" hidden>
+    <div class="modal-overlay" data-close="true"></div>
+    <div class="modal-content">
+      <header class="modal-header">
+        <h3>Principais Autores e Personalidades</h3>
+        <button id="modal-close-autores" class="modal-close">×</button>
+      </header>
+      <div class="modal-body">
+        <ol>
+          <li>Zumbi dos Palmares</li>
+          <li>Dandara dos Palmares</li>
+          <li>Abdias do Nascimento</li>
+          <li>Lélia Gonzalez</li>
+          <li>Milton Santos</li>
+        </ol>
+      </div>
+      <footer class="modal-footer">
+        <button id="modal-close-autores-2" class="btn-primario">Fechar</button>
+      </footer>
+    </div>
+  </div>
+
+
+  <div id="modal-imagens" class="modal" hidden>
+    <div class="modal-overlay" data-close="true"></div>
+    <div class="modal-content">
+      <header class="modal-header">
+        <h3>Imagens da Marcha e da História</h3>
+        <button id="modal-close-imagens" class="modal-close">×</button>
+      </header>
+      <div class="modal-body imagens-grid">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Zumbi_dos_Palmares.jpg" alt="Zumbi dos Palmares" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Dandara_dos_Palmares.jpg" alt="Dandara dos Palmares" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Abdias_do_Nascimento.jpg" alt="Abdias do Nascimento" />
+      </div>
+      <footer class="modal-footer">
+        <button id="modal-close-imagens-2" class="btn-primario">Fechar</button>
+      </footer>
+    </div>
+  </div>
+
+  <script src="app19.js" defer></script>
+</body>
+</html>
